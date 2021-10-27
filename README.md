@@ -1,6 +1,6 @@
 # BIS 305 Assignment 7A - Program Exercise 8-4.
 
-This repo is for use to code and debug the BIS 305 Assignment 7A - Program Exercise 8-4.
+This repo is for you to code and debug the BIS 305 Assignment 7A - Program Exercise 8-4.
 
 Create a program named TipCalculation that includes two overloaded (Overloading 
 involves the ability to write multiple versions of a method using the same method 
@@ -21,8 +21,10 @@ dollars, and the total of the meal plus the tip.
 Include a Main() method that demonstrates each method.
 
 For example if the input meal price is 30.00 and the tip is 0.20, the output should be:
+
 ```html
 Meal price: $30.00. Tip percent: 0.20
 Tip in dollars: $6.00.  Total bill $36.00
 ```
+
 In order to prepend the $ to currency values, the program will need to use the CultureInfo.GetCultureInfo method. In order to do this, include the statement using System.Globalization; at the top of your program and format the output statements as follows: WriteLine("This is an example: {0}", value.ToString("C", CultureInfo.GetCultureInfo("en-US")));
